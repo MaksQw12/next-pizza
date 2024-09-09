@@ -1,11 +1,11 @@
-import Image from 'next/image';
-import { Button } from '@/components/ui/button';
+import { Container, Title } from '@/components/shared';
+
 export default function Home() {
   return (
-    <div>
-      <Button className="mx-3" variant="outline">
-        Привет
-      </Button>
-    </div>
+    <>
+      <Container className="mt-10">
+        <Title text="Все пиццы" size="lg" className="font-extrabold" />
+      </Container>
+    </>
   );
 }
